@@ -24,7 +24,7 @@ def predict():
     churn = y_pred >= 0.5
 
     results = {
-        "Churn Probability": float(y_pred),
+        "Churn Probability": float(y_pred.round(2)),
         "Churn": bool(churn)
     }
     
