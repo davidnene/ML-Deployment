@@ -5,10 +5,11 @@ name = "pypi"
 
 [packages]
 pandas = "*"
-scikit-learn = "*"
+scikit-learn = "==1.3.0"
 numpy = "*"
 flask = "*"
 waitress = "*"
 requests = "*"
+gunicorn = "*"
 
 [dev-packages]
